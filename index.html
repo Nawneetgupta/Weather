@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>Weather App</h1>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Search city..." autocomplete="off">
+      <div class="suggestions" id="suggestions"></div>
+    </div>
+
+    <div class="weather" id="weather">
+      <img id="icon" alt="weather-icon">
+      <h2 id="temp">--°C</h2>
+      <p id="condition">---</p>
+      <h3 id="location">---</h3>
+
+      <div class="details">
+        <div>
+          <span id="humidity">--%</span>
+          <p>Humidity</p>
+        </div>
+        <div>
+          <span id="wind">-- km/h</span>
+          <p>Wind</p>
+        </div>
+        <div>
+          <span id="feels">--°C</span>
+          <p>Feels Like</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Designed & Developed by <strong>Nawneet Gupta</strong>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
